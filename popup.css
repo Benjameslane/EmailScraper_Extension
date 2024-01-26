@@ -1,8 +1,15 @@
 body {
-    min-width: 300px;
-    
+    min-width: 200px;
+    background-color: bisque;
+    font-size: large;
 }
 
 .center {
+    text-align:center;
+}
+
+ul {
+    list-style: none;
     text-align: center;
+    
 }
