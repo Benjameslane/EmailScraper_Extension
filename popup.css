@@ -1,15 +1,19 @@
 body {
     min-width: 200px;
-    background-color: bisque;
+    background-color: lightblue;
     font-size: large;
 }
 
 .center {
     text-align:center;
+    border-style:double;
+   
+
+    
 }
 
 ul {
-    list-style: none;
+    list-style: circle;
     text-align: center;
     
 }
