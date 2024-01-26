@@ -1,5 +1,4 @@
-let scrapeEmails = document.getElementById
-('scrapeEmails');
+let scrapeEmails = document.getElementById('scrapeEmails');
 
 scrapeEmails.addEventListener("click", async () => {
 
@@ -18,8 +17,7 @@ scrapeEmails.addEventListener("click", async () => {
 function scrapeEmailsFromPage() {
     
     // RegEx to parse emails from html code
-    const emailRegEx = /[\w\.=-]+@[\w\.-]+\.[\w]{2,3}/
-    gim;
+    const emailRegEx = /[\w\.=-]+@[\w\.-]+\.[\w]{2,3}/gim;
 
     // Parse emails from the HTML of the page
     let emails = document.body.innerHTML.match
