@@ -1,3 +1,4 @@
-.popup{
-    background-color: red;
+body{
+    min-width: 300px;
+    text-align: center;
 }
